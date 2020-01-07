@@ -8,6 +8,7 @@ public class EndOfFile {
 
     public static void main(String[] args) {
       String line;
+      System.out.print("Enter Strings = ");
       Scanner sc = new Scanner(System.in);
       int counter = 1;
       int number = 1;
@@ -18,6 +19,7 @@ public class EndOfFile {
         number++;
         counter++; 
       }
+        sc.close();
     }
 }
 
