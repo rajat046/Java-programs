@@ -9,8 +9,8 @@ public class String_StringLength
 	    System.out.print("Enter String = ");
 	    String s = sc.nextLine();
 	    int length = s.length();
-		System.out.println("The String you entered = "+s);
-		System.out.println("String Length = "+length);
+	    System.out.println("The String you entered = "+s);
+	    System.out.println("String Length = "+length);
 		
 	}
 }
