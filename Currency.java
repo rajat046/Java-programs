@@ -47,6 +47,7 @@ class Currency{
     p_2000 = v_2000 * n_2000;
         //System.out.println("Result = " +ur);
     final_result = p_10 + p_20 + p_50 + p_100 + p_200 + p_500 + p_2000;
+     currency.close();
     System.out.print("Final Result = "+p_10+" + "+p_20+" +  "+p_50+" + "+p_100+" + "+p_200+" + "+p_500+" + "+p_2000+" = " +final_result);
 
     }
