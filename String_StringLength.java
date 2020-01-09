@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class String_StringLength
+public class StringStringLength
 {
     String s;
     
