@@ -19,7 +19,7 @@ public class Reverse
             // System.out.println("number = "+number);
             
         }
-        System.out.println(reverse);
+        System.out.println("Reverse of the number = "+reverse);
         sc.close();
     }
 }
