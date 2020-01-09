@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main
+class Scan
 {
 	public static void main(String[] args) {
 		int i;
@@ -14,5 +14,6 @@ class Main
 		
 		f = sc.nextFloat();
 		System.out.println("Float = "+f);
+		sc.close();
 	}
 }
