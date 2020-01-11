@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class Tab{
-	public static void main(String args[]){
+	public static void main(String args[])
+	{
 		int a, i, t;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter number");
@@ -11,5 +12,5 @@ class Tab{
 			System.out.println(a+ " * " +i+ " = " +t);
 		}
 		sc.close();
-		}
 	}
+}
