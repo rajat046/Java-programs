@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 class Scan
 {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		int i;
 		float f;
 		
