@@ -5,10 +5,11 @@ class Tab{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter number");
 		a = sc.nextInt();
-		for(i = 1; i < 10001; i++){
+		for(i = 1; i < 10001; i++)
+		{
 			t = a * i;
 			System.out.println(a+ " * " +i+ " = " +t);
-			}
+		}
 		sc.close();
 		}
 	}
