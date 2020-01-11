@@ -9,5 +9,6 @@ class Tab{
 			t = a * i;
 			System.out.println(a+ " * " +i+ " = " +t);
 			}
+		sc.close();
 		}
 	}
