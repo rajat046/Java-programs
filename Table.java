@@ -1,5 +1,6 @@
 import java.util.Scanner;
-class Tab{
+class Tab
+{
 	public static void main(String args[])
 	{
 		int a, i, t;
