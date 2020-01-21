@@ -1,6 +1,7 @@
 public class ArrayEvenOdd
 {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 	    int arr[] = {5, 10, 15, 20};
 	    for(int i = 0; i < 4; i++)
 	    {
