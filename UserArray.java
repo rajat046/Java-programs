@@ -7,6 +7,7 @@ public class UserArray
         	Scanner sc = new Scanner(System.in);
         	System.out.print("enter number of elements = ");
         	int n = sc.nextInt();
+		sc.close();
 	    	int arr[] = new int[n];
 	    	for(int i = 0; i < n; i++)
 	    	{
@@ -17,6 +18,5 @@ public class UserArray
 	    	{
 	        	System.out.print(arr[j] + " ");
 	   	}
-	    sc.close();
 	}
 }
