@@ -8,6 +8,7 @@ public class PrimeNumber
         System.out.print("Number = ");
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
+	sc.close();
         for ( int i = 2; i < number / 2; i++)
         {
             if(number % i == 0)
@@ -24,6 +25,5 @@ public class PrimeNumber
         {
             System.out.println("Not Prime");
         }
-	sc.close();
     }
 }
