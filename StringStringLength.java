@@ -8,9 +8,9 @@ public class StringStringLength
 	    Scanner sc = new Scanner(System.in);
 	    System.out.print("Enter String = ");
 	    String s = sc.nextLine();
+	    sc.close();
 	    int length = s.length();
 	    System.out.println("The String you entered = "+s);
 	    System.out.println("String Length = "+length);
-	    sc.close();
 	}
 }
