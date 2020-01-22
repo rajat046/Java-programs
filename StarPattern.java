@@ -7,6 +7,7 @@ public class StarPattern
         Scanner sc = new Scanner(System.in);
         System.out.print("How many rows = ");
         int rows = sc.nextInt();
+	sc.close();
         for (int i = 0; i <= rows; i++)
         {
             for (int j = 0; j <= i; j++)
@@ -14,7 +15,6 @@ public class StarPattern
                 System.out.print("*" + " ");
             }
             System.out.println();
-	    sc.close();
         }
     }
 }
