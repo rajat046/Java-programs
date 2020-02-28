@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class DecToBin
 {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter decimal number = ");
 		int n = scan.nextInt();
