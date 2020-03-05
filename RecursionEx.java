@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class RecursionEx
 {
-    public void foo(int n)
+    static void foo(int n)
     {
         if(n < 1)	//base condition
 	{
@@ -13,7 +15,8 @@ public class RecursionEx
         }
     }
 	public static void main(String[] args) {
-	    Main obj = new Main();
-	    obj.foo(3);
+	    Scanner scan = new Scanner(System.in);
+	    int n = scan.nextInt();
+	    foo(n);
 	}
 }
