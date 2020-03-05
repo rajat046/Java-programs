@@ -10,7 +10,8 @@ public class RecursionEx
             foo(n - 1);
             System.out.println("Hello " + n);
     }
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 	    Scanner scan = new Scanner(System.in);
 	    int n = scan.nextInt();
 	    foo(n);
