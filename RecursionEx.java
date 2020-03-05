@@ -1,10 +1,13 @@
 public class RecursionEx
 {
-    public void foo(int n){
-        if(n < 1){
+    public void foo(int n)
+    {
+        if(n < 1)
+	{
             return;
         }
-        else{
+        else
+	{
             foo(n - 1);
             System.out.println("Hello " + n);
         }
