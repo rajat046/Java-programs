@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class TwoDarray{
+public class TwoDarray
+{
     public static void main(String args[])
     {
         int[][] arr = new int[3][3];
